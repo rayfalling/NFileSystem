@@ -1,0 +1,11 @@
+#pragma once
+
+#ifndef NFILESYSTEM_VIRTUAL_FILE_MANAGER_H
+#define NFILESYSTEM_VIRTUAL_FILE_MANAGER_H
+
+namespace NFileSystem
+{
+
+}
+
+#endif //NFILESYSTEM_VIRTUAL_FILE_MANAGER_H

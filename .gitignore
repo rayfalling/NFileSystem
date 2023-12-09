@@ -161,6 +161,7 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 *.generate.h
+build/
 
 ### CMake Patch ###
 # External projects
