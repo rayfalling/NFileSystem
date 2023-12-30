@@ -1,10 +1,9 @@
 cmake_minimum_required(VERSION 3.17)
 
-option(BUILD_SHARED_LIBS "Build using shared libraries" ON)
-mark_as_advanced(BUILD_SHARED_LIBS)
+option(BUILD_SHARED "Build using shared libraries" ON)
 
 set(LIB_TYPE STATIC)
-if (BUILD_SHARED_LIBS)
+if (BUILD_SHARED)
     # User wants to build Dynamic Libraries, so change the LIB_TYPE variable to CMake keyword 'SHARED'
     set(LIB_TYPE SHARED)
-endif (BUILD_SHARED_LIBS)
+endif (BUILD_SHARED)
